@@ -1,15 +1,15 @@
 .body {
     // font-family: $main-font;
-    // background-color: $primary-white-color;
+    background-color: $bgc;
     // color: $primary-txt-cl;
 
-    @media screen and (min-width: 320px) {
-        overflow-x: hidden;
-    }
+    // @media screen and (min-width: 320px) {
+    //     overflow-x: hidden;
+    // }
 
-    &.modal-open {
-        overflow: hidden;
-    }
+    // &.modal-open {
+    //     overflow: hidden;
+    // }
 }
 
 // .main-menu.is-open {
