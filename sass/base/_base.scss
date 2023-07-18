@@ -1,0 +1,34 @@
+.body {
+    // font-family: $main-font;
+    // background-color: $primary-white-color;
+    // color: $primary-txt-cl;
+
+    @media screen and (min-width: 320px) {
+        overflow-x: hidden;
+    }
+
+    &.modal-open {
+        overflow: hidden;
+    }
+}
+
+// .main-menu.is-open {
+//     overflow: hidden;
+// }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
