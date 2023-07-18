@@ -1,0 +1,34 @@
+.btn {
+    display: inline-block;
+    padding: 21px 39px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    color: $primary-txt-cl;
+
+    // border: 1px solid $accent-cl;
+    // box-sizing: border-box;
+
+    border-radius: 12px;
+    background-color: $accent-cl;
+
+    @include transition-base(background-color, color);
+
+    &--transparent {
+        background-color: transparent;
+        border: 1px solid $primary-txt-cl;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $primary-white-color;
+        color: $accent-cl;
+    }
+
+    &--transparent:hover {
+        color: $dark-txt-cl;
+    }
+}
