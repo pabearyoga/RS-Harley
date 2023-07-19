@@ -91,4 +91,62 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+
+.header {
+  width: 100%;
+  padding: 100px 0 50px 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 0;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 108px;
+  height: 48px;
+}
+
+.social__item {
+  margin: 0;
+  padding: 0;
+}
+
+.social__icon {
+  fill: #ffffff;
+  width: 22px;
+  height: 22px;
+}
+.social__icon:hover, .social__icon:focus {
+  fill: #eb601d;
+}
+
+.logo__icon {
+  width: 445px;
+  height: 115px;
 }/*# sourceMappingURL=main.css.map */
