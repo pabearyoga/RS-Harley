@@ -149,4 +149,16 @@ a {
 .logo__icon {
   width: 445px;
   height: 115px;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo::after {
+  content: "x";
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  color: #c1c1c1;
 }/*# sourceMappingURL=main.css.map */
