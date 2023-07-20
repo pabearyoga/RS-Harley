@@ -2,11 +2,21 @@
     background-image: url(../../images/bike-bg.jpg);
     background-position: 50% 50%;
     background-size: cover;
+
+    &--margin {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
 }
 
 .form-application__title {
     margin-top: 87px;
     margin-bottom: 60px;
+}
+
+.form-application__text {
+    width: 386px;
+    margin: 0 auto;
 }
 
 .form {
