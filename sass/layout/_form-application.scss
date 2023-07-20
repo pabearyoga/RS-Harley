@@ -1,0 +1,61 @@
+.form-application {
+    background-image: url(../../images/bike-bg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.form-application__title {
+    margin-top: 87px;
+    margin-bottom: 60px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62px;
+}
+
+.field-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 142px;
+}
+
+.field {
+}
+
+.field__input {
+    width: 364px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #41454e;
+    padding-left: 7px;
+    padding-bottom: 11px;
+    color: $accent-cl;
+
+    &::placeholder {
+        color: $primary-txt-cl;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.36px;
+    }
+
+    &:hover,
+    &:focus {
+        border: none;
+        border-bottom: 1px solid $accent-cl;
+        outline: none;
+    }
+}
+
+.field-wrapper__btn {
+    margin-top: 50px;
+    margin-bottom: 63px;
+    border: none;
+}
