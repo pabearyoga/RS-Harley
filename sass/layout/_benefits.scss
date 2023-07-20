@@ -1,0 +1,35 @@
+.benefits {
+    background-color: $secondary-bgc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benefits__title {
+    width: 816px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.benefits__text {
+    display: block;
+    width: 586px;
+    text-align: center;
+    margin-top: 71px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.benefits__list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    // flex-wrap: wrap;
+    gap: 87px;
+    padding: 0 100px;
+}
+
+.benefits__item {
+    text-align: left;
+    width: 253px;
+}
