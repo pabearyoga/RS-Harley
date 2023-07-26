@@ -583,6 +583,12 @@ a {
     margin-bottom: 50px;
   }
 }
+@media screen and (max-width: 1280px) {
+  .benefits__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .benefits__item {
   display: -webkit-box;
