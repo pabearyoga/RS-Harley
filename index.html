@@ -68,8 +68,8 @@
             </p>
           </div>
           <div class="hero__button-wrapper">
-            <a href="" class="btn">залишити заявку</a>
-            <a href="" class="btn btn--transparent">У мене є сертифікат</a>
+            <button id="openPopupButton1" class="btn openPopupCourse">залишити заявку</button>
+            <button id="openPopupButton2" class="btn btn--transparent openPopupHaveCertificate">У мене є сертифікат</button>
           </div>
           <div class="hero__image-wrapper">
           <!-- <div class="hero__image"> -->
@@ -231,7 +231,7 @@
               Не знаєте що подарувати людині, у якої все є? Даруйте сертифікат на
               навчання у PREMIUM школі RSMOTO School & Harley Davidson.
             </p>
-            <a href="" class="btn certificate__btn">Замовити сертифікат</a>
+            <button id="openPopupButton3" class="btn certificate__btn openPopupOrderCertificate">Замовити сертифікат</button>
           </div>
           <div class="certificate__img-wrapper">
             <picture class="certificate__image">
@@ -285,5 +285,123 @@
         <p class="copyright">&#169; Copyright 2023</p>
       </div>
     </footer>
+    <!-- попап -->
+    <div class="popup" id="myPopup">
+      <!-- course -->
+      <section id="openPopupCourseSection" class="form-application--margin popupSection">
+        <div class="container">
+          <h2 class="title form-application__title">Зацікавив курс?</h2>
+          <p class="text form-application__text">
+            Залишай заявку та наш менеджер зв’яжеться з тобою найближчим часом
+          </p>
+          <form action="" class="form">
+            <div class="field-wrapper">
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="username"
+                  placeholder="Ім’я"
+                />
+              </label>
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="phone"
+                  placeholder="Телефон"
+                />
+              </label>
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="email"
+                  placeholder="E-mail"
+                />
+              </label>
+            </div>
+            <button type="submit" class="btn field-wrapper__btn">залишити заявку</button>
+          </form>
+        </div>
+      </section>
+      <!-- haveCertificate -->
+      <section id="openPopupHaveCertificateSection" class="form-application--margin popupSection">
+        <div class="container">
+          <h2 class="title form-application__title">МАЄШ СЕРТИФІКАТ?</h2>
+          <p class="text form-application__text">
+            Залишай свої контактні дані та наш менеджер зв’яжеться з тобою найближчим часом
+          </p>
+          <form action="" class="form">
+            <div class="field-wrapper">
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="username"
+                  placeholder="Ім’я"
+                />
+              </label>
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="phone"
+                  placeholder="Телефон"
+                />
+              </label>
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="email"
+                  placeholder="E-mail"
+                />
+              </label>
+            </div>
+            <button type="submit" class="btn field-wrapper__btn">залишити заявку</button>
+          </form>
+        </div>
+      </section>
+      <!-- orderCertificate-->
+      <section id="openPopupOrderCertificateSection" class="form-application--margin popupSection">
+        <div class="container">
+          <h2 class="title form-application__title">ЗАМОВИТИ СЕРТИФІКАТ</h2>
+          <p class="text form-application__text">
+            Залишай заявку та наш менеджер зв’яжеться з тобою найближчим часом
+          </p>
+          <form action="" class="form">
+            <div class="field-wrapper">
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="username"
+                  placeholder="Ім’я"
+                />
+              </label>
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="phone"
+                  placeholder="Телефон"
+                />
+              </label>
+              <label for="" class="field">
+                <input
+                  class="field__input"
+                  type="text"
+                  name="email"
+                  placeholder="E-mail"
+                />
+              </label>
+            </div>
+            <button type="submit" class="btn field-wrapper__btn">залишити заявку</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="./js/popup.js"></script>
   </body>
 </html>

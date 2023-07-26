@@ -106,6 +106,20 @@ a {
   padding: 0;
 }
 
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #2c2c2c;
+}
+
+.popupSection {
+  display: none;
+}
+
 .header {
   width: 100%;
   padding: 100px 0 50px 0;
