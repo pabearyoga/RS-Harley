@@ -12,6 +12,7 @@
     border: none;
     border-radius: 12px;
     background-color: $accent-cl;
+    outline: none;
 
     @include transition-base(background-color, color);
 
@@ -24,6 +25,7 @@
     &:focus {
         background-color: $primary-white-color;
         color: $accent-cl;
+        outline: none;
     }
 
     &--transparent:hover {

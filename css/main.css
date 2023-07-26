@@ -49,6 +49,7 @@ a {
   border: none;
   border-radius: 12px;
   background-color: #eb601d;
+  outline: none;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: background-color, color;
@@ -61,6 +62,7 @@ a {
 .btn:hover, .btn:focus {
   background-color: #ffffff;
   color: #eb601d;
+  outline: none;
 }
 .btn--transparent:hover {
   color: #000;
