@@ -17,6 +17,10 @@
 .form-application__text {
     width: 386px;
     margin: 0 auto;
+
+    @media screen and (max-width: $tablet) {
+        width: auto;
+    }
 }
 
 .form {
@@ -25,6 +29,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 62px;
+
+    @media screen and (max-width: $tablet) {
+        margin-top: 40px;
+    }
 }
 
 .field-wrapper {
@@ -33,6 +41,11 @@
     align-items: center;
     justify-content: center;
     gap: 142px;
+
+    @media screen and (max-width: $desktop) {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 .field {
@@ -61,6 +74,10 @@
         border: none;
         border-bottom: 1px solid $accent-cl;
         outline: none;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 100%;
     }
 }
 
