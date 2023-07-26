@@ -24,6 +24,18 @@
         height: 4px;
         border-radius: 2px;
         background: $accent-cl;
+
+        @media screen and (max-width: $tablet) {
+            height: 2px;
+        }
+    }
+
+    @media screen and (max-width: $mobile) {
+        font-size: 10px;
+    }
+
+    @media screen and (min-width: $mobile) and (max-width: $tablet) {
+        font-size: 14px;
     }
 }
 
