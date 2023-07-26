@@ -82,6 +82,18 @@ a {
 .btn--transparent:hover {
   color: #000;
 }
+@media screen and (max-width: 480px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .btn {
+    padding: 15px 25px;
+    font-size: 10px;
+  }
+}
 
 .title {
   margin: 0;
@@ -114,13 +126,22 @@ a {
 .text {
   color: #c1c1c1;
   text-align: center;
-  /* Desk/Description */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   margin: 0;
   padding: 0;
+}
+@media screen and (max-width: 480px) {
+  .text {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .text {
+    font-size: 14px;
+  }
 }
 
 .popup {
@@ -262,6 +283,11 @@ a {
           align-items: center;
   padding-bottom: 137px;
 }
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-bottom: 20px;
+  }
+}
 
 .content {
   position: relative;
@@ -314,6 +340,20 @@ a {
   -webkit-background-clip: text;
           background-clip: text;
 }
+@media screen and (max-width: 480px) {
+  .hero__upper-title {
+    font-size: 70px;
+    top: 0%;
+    letter-spacing: -7.8px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .hero__upper-title {
+    font-size: 105px;
+    top: -10%;
+    letter-spacing: -7.8px;
+  }
+}
 
 .hero__title {
   color: #ffffff;
@@ -328,6 +368,18 @@ a {
   padding: 0;
   margin-top: 135px;
 }
+@media screen and (max-width: 480px) {
+  .hero__title {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .hero__title {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+}
 
 .hero__subtitle {
   color: #ffffff;
@@ -341,6 +393,16 @@ a {
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 480px) {
+  .hero__subtitle {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .hero__subtitle {
+    font-size: 20px;
+  }
+}
 
 .hero__text {
   width: 428px;
@@ -348,6 +410,11 @@ a {
   margin: 0;
   padding: 0 10px 0 10px;
   margin-top: 22px;
+}
+@media screen and (max-width: 480px) {
+  .hero__text {
+    width: 100%;
+  }
 }
 
 .hero__button-wrapper {
@@ -367,10 +434,35 @@ a {
   gap: 25px;
   margin-top: 30px;
 }
+@media screen and (max-width: 480px) {
+  .hero__button-wrapper {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .hero__button-wrapper {
+    margin-top: 20px;
+  }
+}
 
 .hero__image-wrapper {
   position: relative;
   padding-bottom: 400px;
+}
+@media screen and (max-width: 480px) {
+  .hero__image-wrapper {
+    padding-bottom: 100px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .hero__image-wrapper {
+    padding-bottom: 180px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .hero__image-wrapper {
+    padding-bottom: 220px;
+  }
 }
 
 .hero__image {

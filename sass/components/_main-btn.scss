@@ -31,4 +31,14 @@
     &--transparent:hover {
         color: $dark-txt-cl;
     }
+
+    @media screen and (max-width: $mobile) {
+        padding: 10px 20px;
+        font-size: 8px;
+    }
+
+    @media screen and (min-width: $mobile) and (max-width: $tablet) {
+        padding: 15px 25px;
+        font-size: 10px;
+    }
 }
