@@ -160,6 +160,7 @@ a {
 }
 
 .popup {
+  width: 100%;
   display: none;
   position: fixed;
   top: 50%;
@@ -794,6 +795,11 @@ a {
 .form-application--margin {
   margin-top: 150px;
   margin-bottom: 150px;
+}
+@media screen and (max-width: 1280px) {
+  .form-application {
+    background: #2c2c2c;
+  }
 }
 
 .form-application__title {

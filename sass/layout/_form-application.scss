@@ -7,6 +7,10 @@
         margin-top: 150px;
         margin-bottom: 150px;
     }
+
+    @media screen and (max-width: $desktop) {
+        background: $secondary-bgc;
+    }
 }
 
 .form-application__title {
