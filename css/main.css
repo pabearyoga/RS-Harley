@@ -36,6 +36,21 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
 
 .btn {
   display: inline-block;
@@ -126,6 +141,11 @@ a {
   width: 100%;
   padding: 100px 0 50px 0;
 }
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 20px 0 20px 0;
+  }
+}
 
 .nav {
   display: -webkit-box;
@@ -160,6 +180,17 @@ a {
   width: 108px;
   height: 48px;
 }
+@media screen and (max-width: 480px) {
+  .social {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    width: 27px;
+  }
+}
 
 .social__item {
   margin: 0;
@@ -174,10 +205,28 @@ a {
 .social__icon:hover, .social__icon:focus {
   fill: #eb601d;
 }
+@media screen and (max-width: 480px) {
+  .social__icon {
+    width: 10px;
+    height: 10px;
+  }
+}
 
 .logo__icon {
   width: 445px;
   height: 115px;
+}
+@media screen and (max-width: 480px) {
+  .logo__icon {
+    width: 112px;
+    height: 29px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .logo__icon {
+    width: 224px;
+    height: 58px;
+  }
 }
 
 .logo {
@@ -190,6 +239,11 @@ a {
   top: 45px;
   right: 258px;
   color: #c1c1c1;
+}
+@media screen and (max-width: 768px) {
+  .logo::after {
+    display: none;
+  }
 }
 
 .hero {
