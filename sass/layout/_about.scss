@@ -69,7 +69,12 @@
     background: #eb601d;
     filter: blur(100px);
     z-index: -1;
+
+    @media screen and (min-width: 320px) {
+        width: 100%;
+    }
 }
+
 .about__img-wrapper::before {
     content: "";
     position: absolute;

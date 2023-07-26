@@ -3,19 +3,26 @@
     margin: 0 auto;
     margin-top: 110px;
     margin-bottom: 35px;
+
+    @media screen and (max-width: $desktop) {
+        width: 100%;
+    }
 }
 
 .bike-Harley__text {
     margin: 0 auto;
     margin-top: 30px;
     width: 546px;
+
+    @media screen and (max-width: $desktop) {
+        width: 100%;
+    }
 }
 
 .bike-Harley__image-wrapper {
     position: relative;
     display: block;
-    // width: 1182px;
-    // height: 679px;
+
     margin: 0 auto;
 }
 
@@ -31,9 +38,17 @@
     background: #eb601d;
     filter: blur(100px);
     z-index: -1;
+
+    @media screen and (max-width: $desktop) {
+        width: 100%;
+        height: 400px;
+    }
 }
 
 .bike-Harley__image {
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: $desktop) {
+    }
 }

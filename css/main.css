@@ -356,18 +356,9 @@ a {
   -webkit-background-clip: text;
           background-clip: text;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1280px) {
   .hero__upper-title {
-    font-size: 70px;
-    top: 0%;
-    letter-spacing: -7.8px;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 768px) {
-  .hero__upper-title {
-    font-size: 105px;
-    top: -10%;
-    letter-spacing: -7.8px;
+    display: none;
   }
 }
 
@@ -531,7 +522,7 @@ a {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .benefits__title {
     width: 100%;
   }
@@ -730,6 +721,11 @@ a {
   -webkit-filter: blur(100px);
           filter: blur(100px);
   z-index: -1;
+}
+@media screen and (min-width: 320px) {
+  .about__img-wrapper::after {
+    width: 100%;
+  }
 }
 
 .about__img-wrapper::before {
@@ -937,11 +933,21 @@ a {
   margin-top: 110px;
   margin-bottom: 35px;
 }
+@media screen and (max-width: 1280px) {
+  .bike-Harley__title {
+    width: 100%;
+  }
+}
 
 .bike-Harley__text {
   margin: 0 auto;
   margin-top: 30px;
   width: 546px;
+}
+@media screen and (max-width: 1280px) {
+  .bike-Harley__text {
+    width: 100%;
+  }
 }
 
 .bike-Harley__image-wrapper {
@@ -965,6 +971,12 @@ a {
           filter: blur(100px);
   z-index: -1;
 }
+@media screen and (max-width: 1280px) {
+  .bike-Harley__image-wrapper::after {
+    width: 100%;
+    height: 400px;
+  }
+}
 
 .bike-Harley__image {
   display: -webkit-box;
@@ -974,7 +986,6 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .video__title {
   width: 816px;
   margin: 0 auto;
