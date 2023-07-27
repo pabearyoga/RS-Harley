@@ -59,7 +59,9 @@ document.addEventListener("keydown", function (event) {
 const openButton1 = document.getElementById("openPopupButton1");
 const openButton2 = document.getElementById("openPopupButton2");
 const openButton3 = document.getElementById("openPopupButton3");
+const closeButton = document.getElementById("closePopupButton");
 
 openButton1.addEventListener("click", openPopup);
 openButton2.addEventListener("click", openPopup);
 openButton3.addEventListener("click", openPopup);
+closeButton.addEventListener("click", closePopup);
