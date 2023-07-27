@@ -68,16 +68,16 @@
 
 .logo {
     position: relative;
-}
 
-.logo::after {
-    content: "x";
-    position: absolute;
-    top: 45px;
-    right: 258px;
-    color: $secondary-txt-cl;
+    &::after {
+        content: "x";
+        position: absolute;
+        top: 45px;
+        right: 258px;
+        color: $secondary-txt-cl;
 
-    @media screen and (max-width: $tablet) {
-        display: none;
+        @media screen and (max-width: $tablet) {
+            display: none;
+        }
     }
 }

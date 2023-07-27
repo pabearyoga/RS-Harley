@@ -34,7 +34,7 @@ function handleFormSubmit(event) {
   const formData = new FormData(form);
   const messageText = "Дані з форми:\n\n" + formDataToString(formData);
 
-  // Замініть на ваш chat_id і токен бота
+  // chat_id і токен бота
   const chatId = "@RSmotoSendMessage";
   const botToken = "6215398274:AAElV_0yRMADoBMXHY0c-b2BphpElUggaew";
 
