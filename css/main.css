@@ -169,6 +169,7 @@ a {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background-color: #2c2c2c;
+  overflow-y: scroll;
 }
 
 .popupSection {

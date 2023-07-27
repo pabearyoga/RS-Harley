@@ -9,6 +9,8 @@
     transform: translate(-50%, -50%);
 
     background-color: $secondary-bgc;
+
+    overflow-y: scroll;
 }
 
 .popupSection {
