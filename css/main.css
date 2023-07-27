@@ -793,6 +793,12 @@ a {
   margin-bottom: 150px;
 }
 @media screen and (max-width: 1280px) {
+  .form-application--margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1280px) {
   .form-application {
     background: #2c2c2c;
   }

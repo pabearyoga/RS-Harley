@@ -6,6 +6,11 @@
     &--margin {
         margin-top: 150px;
         margin-bottom: 150px;
+
+        @media screen and (max-width: $desktop) {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     }
 
     @media screen and (max-width: $desktop) {
