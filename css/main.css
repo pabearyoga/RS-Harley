@@ -798,7 +798,7 @@ a {
 }
 
 .form-application {
-  background-image: url(../../images/bike-bg.jpg);
+  background-image: url(../../images/harley-bg.webp);
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -818,6 +818,11 @@ a {
   }
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .form-application {
+    background-image: url("../../images/harley-bg@2x.webp");
+  }
+}
 .form-application__title {
   margin-top: 87px;
   margin-bottom: 60px;
