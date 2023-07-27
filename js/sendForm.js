@@ -11,7 +11,7 @@ form.addEventListener("submit", function (e) {
 async function sendMessage(form) {
   const formData = new FormData(form);
   if (formData) {
-    const url = "../php/sendmessage.php";
+    const url = "sendmessage.php";
     const response = await fetch(url, {
       method: "POST",
       body: formData,
