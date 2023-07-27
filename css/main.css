@@ -1003,6 +1003,11 @@ a {
   margin-top: 86px;
   margin-bottom: 192px;
 }
+@media screen and (max-width: 1280px) {
+  .video-wrapper {
+    margin-bottom: 50px;
+  }
+}
 
 .certificate {
   background-color: #2c2c2c;
@@ -1024,20 +1029,75 @@ a {
           justify-content: center;
   position: relative;
 }
+@media screen and (max-width: 480px) {
+  .certeficate__container {
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .certeficate__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .certeficate__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 
 .cerrificate__content {
   width: 505px;
   margin-top: 196px;
   margin-bottom: 167px;
 }
+@media screen and (max-width: 1280px) {
+  .cerrificate__content {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .cerrificate__content {
+    width: 80%;
+  }
+}
 
 .certificate__title {
   text-align: left;
   margin-bottom: 74px;
 }
+@media screen and (max-width: 1280px) {
+  .certificate__title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
 
 .certificate__text {
   text-align: left;
+}
+@media screen and (max-width: 1280px) {
+  .certificate__text {
+    text-align: center;
+  }
 }
 
 .certificate__btn {
@@ -1047,6 +1107,11 @@ a {
 .certificate__img-wrapper {
   width: 100%;
 }
+@media screen and (max-width: 1280px) {
+  .certificate__img-wrapper {
+    position: relative;
+  }
+}
 
 .certificate__image {
   position: absolute;
@@ -1054,6 +1119,29 @@ a {
   right: 0;
   width: 1053px;
   height: 785px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .certificate__image {
+    width: 250px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+  .certificate__image {
+    width: 500px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .certificate__image {
+    position: relative;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .certificate__image {
+    top: -200px;
+    right: -30px;
+  }
 }
 
 .footer {

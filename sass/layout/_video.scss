@@ -13,4 +13,8 @@
     overflow: hidden;
     margin-top: 86px;
     margin-bottom: 192px;
+
+    @media screen and (max-width: $desktop) {
+        margin-bottom: 50px;
+    }
 }

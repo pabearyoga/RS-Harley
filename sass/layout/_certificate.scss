@@ -8,31 +8,65 @@
     align-items: center;
     justify-content: center;
     position: relative;
+
+    @media screen and (max-width: $mobile) {
+        padding-bottom: 0;
+    }
+
+    @media screen and (min-width: $mobile) and (max-width: $tablet) {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        flex-direction: column;
+    }
 }
 
 .cerrificate__content {
     width: 505px;
     margin-top: 196px;
     margin-bottom: 167px;
+
+    @media screen and (max-width: $desktop) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    @media screen and (min-width: $tablet) and (max-width: $desktop) {
+        width: 80%;
+    }
 }
 .certificate__title {
     text-align: left;
     margin-bottom: 74px;
+
+    @media screen and (max-width: $desktop) {
+        text-align: center;
+        margin-bottom: 40px;
+    }
 }
 .certificate__text {
     text-align: left;
+    @media screen and (max-width: $desktop) {
+        text-align: center;
+    }
 }
 
 .certificate__btn {
     margin-top: 50px;
 }
-// .certificate__img-wrapper {
-// position: relative;
-// }
 
 .certificate__img-wrapper {
     width: 100%;
     // position: relative;
+    @media screen and (max-width: $desktop) {
+        position: relative;
+    }
 }
 
 .certificate__image {
@@ -41,24 +75,23 @@
     right: 0;
     width: 1053px;
     height: 785px;
+
+    @media screen and (min-width: 320px) and (max-width: $mobile) {
+        width: 250px;
+        height: 150px;
+    }
+
+    @media screen and (min-width: $mobile) and (max-width: $desktop) {
+        width: 500px;
+        height: 300px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        position: relative;
+    }
+
+    @media screen and (min-width: $tablet) and (max-width: $desktop) {
+        top: -200px;
+        right: -30px;
+    }
 }
-
-// .about__image::after {
-//     content: "";
-//     position: absolute;
-//     bottom: 10px;
-//     left: 0;
-//     width: 100%;
-//     height: 340px;
-//     background: linear-gradient(180deg, rgba(32, 32, 32, 0) 0%, #202020 100%);
-// }
-
-// .about__image::before {
-//     content: "";
-//     position: absolute;
-//     bottom: 1px;
-//     right: -30px;
-//     width: 344px;
-//     height: 344px;
-//     background: linear-gradient(180deg, rgba(32, 32, 32, 0) 0%, #202020 100%);
-// }
