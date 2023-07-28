@@ -65,6 +65,7 @@ a {
   border-radius: 12px;
   background-color: #eb601d;
   outline: none;
+  cursor: pointer;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: background-color, color;
@@ -184,6 +185,7 @@ a {
   border: none;
   background-color: transparent;
   color: #ffffff;
+  cursor: pointer;
 }
 .closePopupBnt:hover, .closePopupBnt:focus {
   color: #eb601d;
