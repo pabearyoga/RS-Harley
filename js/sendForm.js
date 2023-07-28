@@ -5,7 +5,7 @@ async function sendMessageToTelegram(messageText, chatId, botToken) {
     const data = {
       chat_id: chatId,
       text: messageText,
-      parse_mode: "HTML", // Якщо ви хочете використовувати HTML у повідомленні
+      parse_mode: "HTML",
     };
 
     const response = await fetch(url, {
