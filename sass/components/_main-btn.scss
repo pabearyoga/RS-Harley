@@ -14,6 +14,8 @@
     background-color: $accent-cl;
     outline: none;
 
+    cursor: pointer;
+
     @include transition-base(background-color, color);
 
     &--transparent {
