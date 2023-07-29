@@ -1,7 +1,5 @@
 # RS-Harley
 
-Міні ТЗ:
-
 - Верстка сайту за макетом https://www.figma.com/file/8FHLbNXpTPE6GjhY39Poek/RS-%2B-Harley?type=design&node-id=301%3A2&mode=dev
 - Адаптив для мобайлу, планшету та десктопу
 - При натисканні на кнопки зв'язку зявляються попапи
