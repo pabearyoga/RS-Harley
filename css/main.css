@@ -1130,7 +1130,7 @@ a {
 }
 
 .certificate__img-wrapper {
-  width: 100%;
+  width: 90%;
 }
 @media screen and (max-width: 1280px) {
   .certificate__img-wrapper {
@@ -1147,13 +1147,13 @@ a {
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .certificate__image {
-    width: 250px;
-    height: 150px;
+    width: 240px;
+    height: 140px;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1280px) {
   .certificate__image {
-    width: 500px;
+    width: 400px;
     height: 300px;
   }
 }
@@ -1162,10 +1162,10 @@ a {
     position: relative;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 769px) and (max-width: 1280px) {
   .certificate__image {
     top: -200px;
-    right: -30px;
+    right: 0;
   }
 }
 

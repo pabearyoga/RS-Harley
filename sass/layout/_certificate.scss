@@ -62,7 +62,7 @@
 }
 
 .certificate__img-wrapper {
-    width: 100%;
+    width: 90%;
     // position: relative;
     @media screen and (max-width: $desktop) {
         position: relative;
@@ -77,12 +77,12 @@
     height: 785px;
 
     @media screen and (min-width: 320px) and (max-width: $mobile) {
-        width: 250px;
-        height: 150px;
+        width: 240px;
+        height: 140px;
     }
 
     @media screen and (min-width: $mobile) and (max-width: $desktop) {
-        width: 500px;
+        width: 400px;
         height: 300px;
     }
 
@@ -90,8 +90,8 @@
         position: relative;
     }
 
-    @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    @media screen and (min-width: calc($tablet + 1px)) and (max-width: $desktop) {
         top: -200px;
-        right: -30px;
+        right: 0;
     }
 }
