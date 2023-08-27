@@ -41,7 +41,26 @@ function handleFormSubmit(event) {
   sendMessageToTelegram(messageText, chatId, botToken);
 
   form.reset();
-  alert("Form sent!");
+
+  // console.log(document.querySelector(".btn").textContent);
+  // alert("Form sent!");
+  // document.getElementById("formSent").classList.remove("animate__backOutDown");
+  document.getElementById("formSent").classList.toggle("show");
+  document.getElementById("formSent").classList.toggle("animate__backInDown");
+
+  setTimeout(() => {
+    document.getElementById("formSent").classList.toggle("animate__backInDown");
+    document
+      .getElementById("formSent")
+      .classList.toggle("animate__backOutRight");
+  }, 2000);
+
+  setTimeout(() => {
+    document
+      .getElementById("formSent")
+      .classList.toggle("animate__backOutRight");
+    document.getElementById("formSent").classList.remove("show");
+  }, 2500);
 }
 
 // Функція для перетворення даних форми в рядок

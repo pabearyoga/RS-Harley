@@ -1,0 +1,50 @@
+.form-sent {
+    position: fixed;
+    top: 50%;
+    // left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 39px;
+    width: 100vw;
+    height: 30vh;
+
+    overflow-x: hidden;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    color: $primary-txt-cl;
+
+    border: none;
+    border-radius: 12px;
+    background-color: $accent-cl;
+    outline: none;
+
+    @include transition-base(background-color, color);
+
+    @media screen and (max-width: $mobile) {
+        padding: 10px 20px;
+        font-size: 8px;
+    }
+
+    @media screen and (min-width: $mobile) and (max-width: $tablet) {
+        padding: 15px 25px;
+        font-size: 10px;
+    }
+}
+
+.form-sent__text::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../../images/motorbike_icon_126697.svg);
+}
+
+.show {
+    display: flex;
+}
