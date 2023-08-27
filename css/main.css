@@ -193,8 +193,8 @@ a {
 .form-sent {
   position: fixed;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
